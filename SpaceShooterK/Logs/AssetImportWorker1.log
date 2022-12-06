@@ -15,7 +15,7 @@ D:/Unity/GitHub/SpaceShooterK/SpaceShooterK
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-8752
+6278
 Successfully changed project path to: D:/Unity/GitHub/SpaceShooterK/SpaceShooterK
 D:/Unity/GitHub/SpaceShooterK/SpaceShooterK
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Unity/GitHub/SpaceShooterK/SpaceShooterK
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 104.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 116.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,81 +63,81 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.023696 seconds.
+Registered in 0.022844 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 99.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.852 seconds
+- Completed reload, in  0.901 seconds
 Domain Reload Profiling:
-	ReloadAssembly (853ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (902ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (578ms)
-			LoadAssemblies (113ms)
+		EndReloadAssembly (602ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (145ms)
+			SetupTypeCache (143ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (338ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (356ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (76ms)
+				InitializePlatformSupportModulesInManaged (84ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (100ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007708 seconds.
+Registered in 0.007467 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.735 seconds
+- Completed reload, in  3.437 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4736ms)
-		BeginReloadAssembly (3609ms)
+	ReloadAssembly (3438ms)
+		BeginReloadAssembly (2357ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3471ms)
-		EndReloadAssembly (974ms)
-			LoadAssemblies (131ms)
+			CreateAndSetChildDomain (2225ms)
+		EndReloadAssembly (936ms)
+			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (436ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (434ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (111ms)
+				BeforeProcessingInitializeOnLoad (112ms)
 				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (19ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,12 +146,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3831.
-Memory consumption went from 121.0 MB to 120.9 MB.
-Total: 3.010600 ms (FindLiveObjects: 0.281500 ms CreateObjectMapping: 0.205200 ms MarkObjects: 2.421600 ms  DeleteObjects: 0.101400 ms)
+Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3837.
+Memory consumption went from 122.9 MB to 122.8 MB.
+Total: 3.108700 ms (FindLiveObjects: 0.344800 ms CreateObjectMapping: 0.231200 ms MarkObjects: 2.420100 ms  DeleteObjects: 0.109300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,87 +163,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1201761.417745 seconds.
-  path: Assets/04.Images/YughuesFreeMetalMaterials/Metal textures pack/pattern 48/T_48_Diffuse.tga
-  artifactKey: Guid(485b71d54b858e246a86b7c8713d8476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/YughuesFreeMetalMaterials/Metal textures pack/pattern 48/T_48_Diffuse.tga using Guid(485b71d54b858e246a86b7c8713d8476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d48df71af3388ce9bc52473a8146dd') in 0.103939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.193638 seconds.
-  path: Assets/04.Images/YughuesFreeMetalMaterials/Metal textures pack/pattern 47/T_47_Diffuse.tga
-  artifactKey: Guid(9bf247a9660727e49b6f8ed46e6e2bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/YughuesFreeMetalMaterials/Metal textures pack/pattern 47/T_47_Diffuse.tga using Guid(9bf247a9660727e49b6f8ed46e6e2bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d61b1545e55719809ab5b6af4e7b2db') in 0.013144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/04.Images/YughuesFreeMetalMaterials/Metal textures pack/pattern 47/T_47_Specular.tga
-  artifactKey: Guid(00519038c9eba4c42b26e4168e27a50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/YughuesFreeMetalMaterials/Metal textures pack/pattern 47/T_47_Specular.tga using Guid(00519038c9eba4c42b26e4168e27a50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f0ee7a386928a927116d81175089b3') in 0.015309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.782534 seconds.
-  path: Assets/04.Images/YughuesFreeMetalMaterials/Metal textures pack/pattern 46/T_46_Diffuse.tga
-  artifactKey: Guid(04b2bfb7759f4854fb05998f97653d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/YughuesFreeMetalMaterials/Metal textures pack/pattern 46/T_46_Diffuse.tga using Guid(04b2bfb7759f4854fb05998f97653d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50563a4904bfe428862ae52cb2d5b33c') in 0.011357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/04.Images/YughuesFreeMetalMaterials/Metal textures pack/pattern 46/T_46_Specular.tga
-  artifactKey: Guid(8bc770dd8bed136429f69e2a33a1586b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/YughuesFreeMetalMaterials/Metal textures pack/pattern 46/T_46_Specular.tga using Guid(8bc770dd8bed136429f69e2a33a1586b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe82c0cb5f25ff25b1998b5c78fbf1e') in 0.012475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 338.500373 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-warning-light.png
-  artifactKey: Guid(1e80543db0ef9494a9c1777f01e1a4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-warning-light.png using Guid(1e80543db0ef9494a9c1777f01e1a4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a27938143d613ff74af34e1dca300a0') in 0.068325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceRed/backImage.png
-  artifactKey: Guid(0d37d5a7bd77d4c4d87538ec79a8c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceRed/backImage.png using Guid(0d37d5a7bd77d4c4d87538ec79a8c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7517f6e3128c36c8261dc2180f69d288') in 0.017203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 152.041040 seconds.
-  path: Assets/05.Models/Player/Player.FBX
-  artifactKey: Guid(f3cd25b3bf53c4adaaf087d862e435e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Player/Player.FBX using Guid(f3cd25b3bf53c4adaaf087d862e435e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854a48038fbc53a66af2aa3fcb461838') in 0.230621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/04.Images/SkyBox Volume 2/DeepsSpaceRedWithPlanet/DSRWP.mat
-  artifactKey: Guid(19e2485c6f92d6944ad20466ac77b04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/SkyBox Volume 2/DeepsSpaceRedWithPlanet/DSRWP.mat using Guid(19e2485c6f92d6944ad20466ac77b04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3620ed7a5937c4d5942214c840ccdca8') in 0.230127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceGreen/DSG.mat
-  artifactKey: Guid(a07fadb24ea940240afba3afc1a692cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceGreen/DSG.mat using Guid(a07fadb24ea940240afba3afc1a692cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea88228a8e53c129d117c9fca899d7a') in 0.023741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8590.547774 seconds.
-  path: Assets/04.Images/SkyBox Volume 2/Stars01/upImage.png
-  artifactKey: Guid(1eee1a8f13e601d4e967192b6915486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/SkyBox Volume 2/Stars01/upImage.png using Guid(1eee1a8f13e601d4e967192b6915486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348e3d7d3c3cdc58521d2fd4c47421e7') in 0.024826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.942459 seconds.
-  path: Assets/05.Models/Player/Textures/t_skin07_n.psd
-  artifactKey: Guid(7a88663e33e86485992d38aa828f2cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Player/Textures/t_skin07_n.psd using Guid(7a88663e33e86485992d38aa828f2cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41872afb9c27e6b4d8cf55a4b6b1ad92') in 0.032773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 732.037194 seconds.
-  path: Assets/04.Images/Materials/Skybox.mat
-  artifactKey: Guid(d9788cefff9c5c047a96849fc901a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/Materials/Skybox.mat using Guid(d9788cefff9c5c047a96849fc901a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2770aaa65dee12def181c0c830ecdb') in 0.018878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1602.039974 seconds.
-  path: Assets/04.Images/Materials/SkyboxPC.mat
-  artifactKey: Guid(fcb464cb7296cbe4a9d75e9b1f9bd441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/Materials/SkyboxPC.mat using Guid(fcb464cb7296cbe4a9d75e9b1f9bd441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e8408c4d41c4fe74dec551ff375f4c') in 0.127477 seconds 
