@@ -8,17 +8,27 @@ public class PlayerCtrl : MonoBehaviour
     private float horizontal;   // 평행 이동 변수
     private float vertical;     // 수직 이동 변수
     private float rotate;       // 회전 속도 변수
-    private Transform tr;       // 컴포넌트를 캐시 처리할 변수. Transform 은 클래스이다.
-    private Vector3 moveDir;    // Vector3 를 moveDir 변수에 할당.
 
-    // 이동속도, 회전속도 변수 (public 으로 선언되어 Inspector View 에 노출됨.)
-    public float moveSpeed = 10.0f, turnSpeed = 80.0f;
+    // public 으로 선언되어 Inspector View 에 노출됨.
+    public float moveSpeed = 10.0f;     // 이동속도 변수
+    public float turnSpeed = 80.0f;     // 회전속도 변수 
+
+    private Vector3 moveDir;    // Vector3 를 moveDir 변수에 할당.
+    private Transform tr;       // 컴포넌트를 캐시 처리할 변수. Transform 은 클래스이다.
+    private Animation anim;     // Animation 컴포넌트를 저장할 변수
+
+
+
 
 
     void Start()
     {
         // Transform 컴포넌트를 추출해 변수에 대입(this.gameObject 는 생략가능하다.)
         tr = this.GetComponent<Transform>();
+        anim = this.GetComponent<Animation>();
+
+        // 애니메이션 실행
+        anim.Play("Idle");
     }
 
 
@@ -40,12 +50,49 @@ public class PlayerCtrl : MonoBehaviour
         // 전후좌우 이동 방향 벡터 계산
         moveDir = (Vector3.forward * vertical) + (Vector3.right * horizontal);
 
-        // Translate(이동 방향 * 속력 * Time.deltaTime)
+        // Translate(이동 방향 * 속도 * Time.deltaTime)
         tr.Translate(moveDir.normalized * moveSpeed * Time.deltaTime, Space.Self);
 
         // Vector3.up 축을 기준으로 turnSpeed 만큼의 속도로 회전
         tr.Rotate(Vector3.up * turnSpeed * Time.deltaTime * rotate, Space.Self);
+
+        // 주인공 캐릭터의 애니메이션 설정
+
+        // 키보드 입력값을 기준으로 동작할 애니메이션 수행
+
+        // >= 왼쪽 vertical 가(이) 오른쪽 피연산자보다 크거나 같으면
+        PlayerAnim();
     }
+
+
+    private void PlayerAnim()
+    {
+        if (vertical >= 0.1f)
+        {
+            anim.CrossFade("RunF", 0.25f);  // 전진 애니메이션 실행
+
+        }   // <= 왼쪽 vertical 가(이) 오른쪽 피연산자보다 작거나 같으면
+        else if (vertical <= -0.1f)
+        {
+            anim.CrossFade("RunB", 0.25f);  // 후진 애니메이션 실행
+
+        }   // >= 왼쪽 horizontal 가(이) 오른쪽 피연산자보다 크거나 같으면
+        else if (horizontal >= 0.1f)
+        {
+            anim.CrossFade("RunR", 0.25f);  // 오른쪽 이동 애니메이션 실행
+
+        }   // <= 왼쪽 horizontal 가(이) 오른쪽 피연산자보다 작거나 같으면
+        else if (horizontal <= -0.1f)
+        {
+            anim.CrossFade("RunL", 0.25f);  // 왼쪽 이동 애니메이션 실행
+        }
+        else
+        {
+            anim.CrossFade("Idle", 0.25f);  // 정지 시 Idle 애니메이션 실행
+        }
+    }
+
+
 }
 
 
