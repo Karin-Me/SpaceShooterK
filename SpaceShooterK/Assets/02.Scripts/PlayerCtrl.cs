@@ -44,7 +44,8 @@ public class PlayerCtrl : MonoBehaviour
         //Debug.Log("호리존탈=" + horizontal);
         //Debug.Log("버티칼=" + vertical);
 
-        // 01.주석 시작
+        // ====01. 로직부터.==== //
+
 
 
         // 전후좌우 이동 방향 벡터 계산
@@ -91,8 +92,6 @@ public class PlayerCtrl : MonoBehaviour
             anim.CrossFade("Idle", 0.25f);  // 정지 시 Idle 애니메이션 실행
         }
     }
-
-
 }
 
 

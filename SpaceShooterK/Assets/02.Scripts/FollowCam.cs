@@ -20,6 +20,9 @@ public class FollowCam : MonoBehaviour
     // 반응 속도
     public float damping = 10.0f;
 
+    // 카메라 LookAt 의 Offset 값
+    public float targetOffset = 2.0f;   //Target Offset 적용
+
     // SmoothDamp 에서 사용할 변수
     private Vector3 velocity = Vector3.zero;
 
@@ -33,33 +36,7 @@ public class FollowCam : MonoBehaviour
 
     void LateUpdate()
     {
-        //// 01_로직_초반 로직.         
-
-        //// 추적해야 할 대상의 뒤쪽으로 distance 만큼 이동
-        //// 높이를 height 만큼 이동
-        //camTr.position = targetTr.position + (-targetTr.forward * distance) + (Vector3.up * height);
-        //// 좌표계를 통한 카메라 팔로우 
-        ////camTr.position = targetTr.position + (-(targetTr.position + new Vector3(0, 0, 1)) * distance) +
-        ////(new Vector3(0,1,0) * height);
-
-        //// Camera 를 피벗 좌표를 향해 회전
-        //camTr.LookAt(targetTr.position);
-
-
-
-        //// 02_로직_Slerp 로직.
-
-        //// 추적해야 할 대상의 뒤쪽으로 distance 만큼 이동
-        //// 높이를 height 만큼 이동
-        //Vector3 pos = targetTr.position + (-targetTr.forward * distance) + (Vector3.up * height);
-
-        //// 구면 선형 보간 함수를 사용해 부드럽게 위치를 변경
-        //camTr.position = Vector3.Slerp(camTr.position,              // 시작위치
-        //                               pos,                         // 목표 위치
-        //                               Time.deltaTime * damping);   // 시간 t
-
-        //// Camera 를 피벗 좌표를 향해 회전
-        //camTr.LookAt(targetTr.position);
+        // ====01_로직부터.==== //     
 
 
 
@@ -77,7 +54,36 @@ public class FollowCam : MonoBehaviour
         // damping 은 목표 위치까지 도달할 시간
         camTr.position = Vector3.SmoothDamp(camTr.position, pos, ref velocity, damping);
 
-        // Camera 를 피벗 좌표를 향해 회전
-        camTr.LookAt(targetTr.position);
+        // Camera 를 피벗 좌표를 향해 회전 (Target Offset 적용)
+        camTr.LookAt(targetTr.position + (targetTr.up * targetOffset));
     }
 }
+
+
+//// 01_로직_초반 로직.         
+
+//// 추적해야 할 대상의 뒤쪽으로 distance 만큼 이동
+//// 높이를 height 만큼 이동
+//camTr.position = targetTr.position + (-targetTr.forward * distance) + (Vector3.up * height);
+//// 좌표계를 통한 카메라 팔로우 
+////camTr.position = targetTr.position + (-(targetTr.position + new Vector3(0, 0, 1)) * distance) +
+////(new Vector3(0,1,0) * height);
+
+//// Camera 를 피벗 좌표를 향해 회전
+//camTr.LookAt(targetTr.position);
+
+
+
+//// 02_로직_Slerp 로직.
+
+//// 추적해야 할 대상의 뒤쪽으로 distance 만큼 이동
+//// 높이를 height 만큼 이동
+//Vector3 pos = targetTr.position + (-targetTr.forward * distance) + (Vector3.up * height);
+
+//// 구면 선형 보간 함수를 사용해 부드럽게 위치를 변경
+//camTr.position = Vector3.Slerp(camTr.position,              // 시작위치
+//                               pos,                         // 목표 위치
+//                               Time.deltaTime * damping);   // 시간 t
+
+//// Camera 를 피벗 좌표를 향해 회전
+//camTr.LookAt(targetTr.position);
