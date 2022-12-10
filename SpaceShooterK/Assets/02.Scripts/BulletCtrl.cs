@@ -11,8 +11,12 @@ public class BulletCtrl : MonoBehaviour
 
     private Rigidbody rb;
 
-    private void Start()
+    void Start()
     {
-        
+        // Rigidbody 컴포넌트를 추출
+        rb = GetComponent<Rigidbody>();
+
+        // 총알의 전진 방향으로 힘(Force) 를(을) 가한다.
+        rb.AddRelativeForce(transform.forward * force);
     }
 }
