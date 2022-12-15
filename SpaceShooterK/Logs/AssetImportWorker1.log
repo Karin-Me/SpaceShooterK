@@ -15,7 +15,7 @@ C:/Users/USER/UnityProject/GitHub/SpaceShooterK/SpaceShooterK
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-3112
+2473
 Successfully changed project path to: C:/Users/USER/UnityProject/GitHub/SpaceShooterK/SpaceShooterK
 C:/Users/USER/UnityProject/GitHub/SpaceShooterK/SpaceShooterK
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/USER/UnityProject/GitHub/SpaceShooterK/SpaceShooterK
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 67.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,95 +63,96 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003365 seconds.
+Registered in 0.235042 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 73.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.488 seconds
+- Completed reload, in  3.880 seconds
 Domain Reload Profiling:
-	ReloadAssembly (488ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (3880ms)
+		BeginReloadAssembly (2586ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (363ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (812ms)
+			LoadAssemblies (2588ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (79ms)
+			SetupTypeCache (543ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (228ms)
+			SetupLoadedEditorAssemblies (211ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (66ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (81ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002757 seconds.
+Registered in 0.003539 seconds.
+Android Extension - Scanning For ADB Devices 4133 ms
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.852 seconds
+- Completed reload, in  3.734 seconds
 Domain Reload Profiling:
-	ReloadAssembly (853ms)
-		BeginReloadAssembly (190ms)
+	ReloadAssembly (3734ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (128ms)
-		EndReloadAssembly (579ms)
-			LoadAssemblies (52ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (3541ms)
+			LoadAssemblies (1952ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (200ms)
+			SetupTypeCache (584ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (263ms)
+			SetupLoadedEditorAssemblies (946ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (645ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.2 KB). Loaded Objects now: 3846.
-Memory consumption went from 123.8 MB to 123.6 MB.
-Total: 2.360800 ms (FindLiveObjects: 0.235200 ms CreateObjectMapping: 0.078400 ms MarkObjects: 1.957400 ms  DeleteObjects: 0.088900 ms)
+Unloading 27 unused Assets / (112.0 KB). Loaded Objects now: 3848.
+Memory consumption went from 196.4 MB to 196.3 MB.
+Total: 2.503600 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.077400 ms MarkObjects: 2.080900 ms  DeleteObjects: 0.098100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,169 +166,83 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 15008.035093 seconds.
-  path: Assets/04.Images/Materials/Floor.mat
-  artifactKey: Guid(c938d214acc1670419374425f51b9301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/Materials/Floor.mat using Guid(c938d214acc1670419374425f51b9301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420600ae675b41337399e649db4c6727') in 0.119869 seconds 
+  Time since last request: 2689.667819 seconds.
+  path: Assets/03.Prefabs/Wall.prefab
+  artifactKey: Guid(1409442602dd9e8408d63930728bd6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Wall.prefab using Guid(1409442602dd9e8408d63930728bd6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804a34415edc358d9ed6a33e5ae9d3a9') in 0.097541 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/04.Images/Materials/Skybox.mat
-  artifactKey: Guid(d9788cefff9c5c047a96849fc901a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/Materials/Skybox.mat using Guid(d9788cefff9c5c047a96849fc901a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e132e5b92606e01e66be1da1a85cee8') in 0.038604 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/05.Models/Bullet
+  artifactKey: Guid(169ae92342aa14fe5907abb23fc8a916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/Bullet using Guid(169ae92342aa14fe5907abb23fc8a916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf417dd3fdc7748fd290f15671f7a10d') in 0.001551 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2389.823971 seconds.
-  path: Assets/05.Models/Barrel/Materials/Barrel-Barrel 1.mat
-  artifactKey: Guid(8b486f856f0491e40977f08e818e3497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Barrel/Materials/Barrel-Barrel 1.mat using Guid(8b486f856f0491e40977f08e818e3497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b569a3f93de1d1469ffa60c0984d08c') in 0.049213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceBlueWithPlanet/DSBWP.mat
-  artifactKey: Guid(b8f20d5ca50d16143afc11f5e4af6fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceBlueWithPlanet/DSBWP.mat using Guid(b8f20d5ca50d16143afc11f5e4af6fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef51ecc10b6b73ef4e44c49b462431d1') in 0.080686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceBlue/DSB.mat
-  artifactKey: Guid(e980bc7fbb00dc34b86b95ac842d1920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceBlue/DSB.mat using Guid(e980bc7fbb00dc34b86b95ac842d1920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa9bcd7c1a1561edf88c066cd9a16dc') in 0.022568 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/05.Models
+  artifactKey: Guid(9713010bc0ccf7943b1fdf3494028fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models using Guid(9713010bc0ccf7943b1fdf3494028fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a11a68a6eccb9c4336ee471b31e96fb') in 0.004270 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/05.Models/Bullet/lowpolybullet 2.FBX
-  artifactKey: Guid(76c783f046ecd0f4586bca71da11ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Bullet/lowpolybullet 2.FBX using Guid(76c783f046ecd0f4586bca71da11ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbc11f0185f2b8b34f33f1d34dbb380') in 0.060866 seconds 
+  path: Assets/05.Models/Bullet/lowpolybullet.fbx
+  artifactKey: Guid(f3be3666e308d450f8cc9ad434580302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Models/Bullet/lowpolybullet.fbx using Guid(f3be3666e308d450f8cc9ad434580302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406f97c5d06f4e0d96c1f8ab676c5045') in 0.060546 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/05.Models/SchoolGirls/Stand/Materials/Cylinder001Mat.mat
-  artifactKey: Guid(bd152d34157aff447b35fe11886259ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Stand/Materials/Cylinder001Mat.mat using Guid(bd152d34157aff447b35fe11886259ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a11a1a80a2c7fa372ded5dd6ef03ec') in 0.014161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/05.Models/Bullet/Materials/Bullet_UV2.mat
-  artifactKey: Guid(d0168d139a4e746afabad4e5096c78a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Bullet/Materials/Bullet_UV2.mat using Guid(d0168d139a4e746afabad4e5096c78a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f686b49d0f04992713c45c695e5d7411') in 0.015929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.254345 seconds.
-  path: Assets/05.Models/Weapons/Materials/m_rifle01.mat
-  artifactKey: Guid(7e54e52b5d24943bf8fcaabd7cda3ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Weapons/Materials/m_rifle01.mat using Guid(7e54e52b5d24943bf8fcaabd7cda3ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6582c64089c95bbe7e72a280d26f7ea5') in 0.017530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/05.Models/Player/Material/m_SkinSlade.mat
-  artifactKey: Guid(1b7c6da276d564d30b27a2b8d1b9b5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Player/Material/m_SkinSlade.mat using Guid(1b7c6da276d564d30b27a2b8d1b9b5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f856335f7e78bbf0717c79f182e09d6') in 0.011871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/05.Models/Weapons/Materials/m_rifle02.mat
-  artifactKey: Guid(0628f850633764dfe82afdc4a92b3cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Weapons/Materials/m_rifle02.mat using Guid(0628f850633764dfe82afdc4a92b3cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1543f4593ef1d0fe55840ebdd816ad') in 0.011288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.677059 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_BODY_Socks_v1_Black.mat
-  artifactKey: Guid(ea385c2103538174e82d7cbe03148aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_BODY_Socks_v1_Black.mat using Guid(ea385c2103538174e82d7cbe03148aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bccd8687f3d59353dbfcb17241ff0d1') in 0.090576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_02_V6.mat
-  artifactKey: Guid(eaeb73a4e726a6e41a3361bd0dae1f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_02_V6.mat using Guid(eaeb73a4e726a6e41a3361bd0dae1f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d82d79f22ef3085edb0bfee38b5924c') in 0.088537 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_EYES_YELLOW.mat
-  artifactKey: Guid(cb2ed80b11c6f5949b09de0c3f6ecb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_EYES_YELLOW.mat using Guid(cb2ed80b11c6f5949b09de0c3f6ecb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb38fe3f38c64891f1fb6f719860b11') in 0.024926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_02_V1.mat
-  artifactKey: Guid(e28b41f37d790d94e9764e6cbf141a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_02_V1.mat using Guid(e28b41f37d790d94e9764e6cbf141a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a9fdb546a0ff50bcfba44471fe3450') in 0.065947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHOES.mat
-  artifactKey: Guid(6022f7906a40d294f8281a0945293914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHOES.mat using Guid(6022f7906a40d294f8281a0945293914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818b9ac76ef90c64053e192ac0245707') in 0.060823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_BODY_Underwear_Full_Black.mat
-  artifactKey: Guid(379752cc3a6689842a7fa7c65a8b0e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_BODY_Underwear_Full_Black.mat using Guid(379752cc3a6689842a7fa7c65a8b0e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460df2dd1af58a0e9a91205374ecacc6') in 0.048642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_02_V3.mat
-  artifactKey: Guid(c297b32d5c9a12940b798b65c77194a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_02_V3.mat using Guid(c297b32d5c9a12940b798b65c77194a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141078cc7d58b279d4a2a1eb4c43968b') in 0.069840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_02_V5.mat
-  artifactKey: Guid(4b6a4d2312f57e04ea3d32f2f41f5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_02_V5.mat using Guid(4b6a4d2312f57e04ea3d32f2f41f5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e1eea041059fca3a121a54ecf96eee') in 0.066667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_BODY_Underwear_Full.mat
-  artifactKey: Guid(532b054dd7c3ab149a05aac276a62c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_BODY_Underwear_Full.mat using Guid(532b054dd7c3ab149a05aac276a62c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957711b5de65dbe2e3f375b977fa1185') in 0.054589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_EYESHADOW.mat
-  artifactKey: Guid(10efb5d2922f0eb4fa9c6fec534eb931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_EYESHADOW.mat using Guid(10efb5d2922f0eb4fa9c6fec534eb931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd34a8aabb7759d39d7d09bef72c62f2') in 0.023367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SKIRT_SHORT_v5.mat
-  artifactKey: Guid(dd8c25bd345e67a4aa24812583531ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SKIRT_SHORT_v5.mat using Guid(dd8c25bd345e67a4aa24812583531ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9885b36c1052c9f6d22815a69771b1c9') in 0.070358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_01_V2.mat
-  artifactKey: Guid(c5b9fa637b7b73945ad2e318261ac322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_01_V2.mat using Guid(c5b9fa637b7b73945ad2e318261ac322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242d9ad58cfe9e529883ccde04140edc') in 0.083569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_02_V4.mat
-  artifactKey: Guid(3303a50e5e7c3544fb60b3f9d3a956f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_02_V4.mat using Guid(3303a50e5e7c3544fb60b3f9d3a956f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdaaf110fc052e2249ec94cd0f7e962') in 0.065064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_01_V1.mat
-  artifactKey: Guid(81018b1bbf0074d4e8ba338926cc2eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_01_V1.mat using Guid(81018b1bbf0074d4e8ba338926cc2eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f10f504f6443e79e62f8a086bee29f0') in 0.067939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/04.Images/SkyBox Volume 2/Stars01/StarSkyBox.mat
-  artifactKey: Guid(b9be0c15efe8ad9489fdeead114d8ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04.Images/SkyBox Volume 2/Stars01/StarSkyBox.mat using Guid(b9be0c15efe8ad9489fdeead114d8ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045427d3dedc35653be11db97daec114') in 0.041291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SKIRT_SHORT_v1.mat
-  artifactKey: Guid(a6534da89ac12a74894c365837870a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SKIRT_SHORT_v1.mat using Guid(a6534da89ac12a74894c365837870a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a293cf60ec92d681de586c318c03be65') in 0.073139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_02_V2.mat
-  artifactKey: Guid(c10917f9d07dc834f93210cf77d3e884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SHIRT_02_V2.mat using Guid(c10917f9d07dc834f93210cf77d3e884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128465ebe41d0b2e06968eb26486d78e') in 0.058177 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003416 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.709 seconds
+Domain Reload Profiling:
+	ReloadAssembly (710ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (543ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.2 KB). Loaded Objects now: 3861.
+Memory consumption went from 200.8 MB to 200.8 MB.
+Total: 2.481200 ms (FindLiveObjects: 0.221600 ms CreateObjectMapping: 0.076100 ms MarkObjects: 2.101200 ms  DeleteObjects: 0.081500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
