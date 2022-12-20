@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 16163 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 16266 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/USER/UnityProject/GitHub/SpaceShooterK/SpaceShooterK
+D:/Unity/GitHub/SpaceShooterK/SpaceShooterK
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-9487
-Successfully changed project path to: C:/Users/USER/UnityProject/GitHub/SpaceShooterK/SpaceShooterK
-C:/Users/USER/UnityProject/GitHub/SpaceShooterK/SpaceShooterK
+2196
+Successfully changed project path to: D:/Unity/GitHub/SpaceShooterK/SpaceShooterK
+D:/Unity/GitHub/SpaceShooterK/SpaceShooterK
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,112 +47,111 @@ C:/Users/USER/UnityProject/GitHub/SpaceShooterK/SpaceShooterK
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 70.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 128.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/USER/UnityProject/GitHub/SpaceShooterK/SpaceShooterK/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/GitHub/SpaceShooterK/SpaceShooterK/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
     Vendor:   NVIDIA
-    VRAM:     3990 MB
+    VRAM:     2988 MB
     Driver:   30.0.15.1215
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005416 seconds.
+Registered in 0.023650 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 78.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 106.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
+- Completed reload, in  0.866 seconds
 Domain Reload Profiling:
-	ReloadAssembly (761ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (866ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (518ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (575ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
+			SetupTypeCache (129ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (248ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (345ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (78ms)
+				InitializePlatformSupportModulesInManaged (75ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (78ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003299 seconds.
-Android Extension - Scanning For ADB Devices 4136 ms
+Registered in 0.007225 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.834 seconds
+- Completed reload, in  4.910 seconds
 Domain Reload Profiling:
-	ReloadAssembly (835ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (4911ms)
+		BeginReloadAssembly (3740ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (658ms)
-			LoadAssemblies (60ms)
+			CreateAndSetChildDomain (3585ms)
+		EndReloadAssembly (982ms)
+			LoadAssemblies (152ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (222ms)
+			SetupTypeCache (347ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (313ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (432ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (19ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.6 KB). Loaded Objects now: 3849.
-Memory consumption went from 198.7 MB to 198.6 MB.
-Total: 2.936400 ms (FindLiveObjects: 0.302400 ms CreateObjectMapping: 0.090900 ms MarkObjects: 2.424500 ms  DeleteObjects: 0.117200 ms)
+Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3850.
+Memory consumption went from 199.0 MB to 198.9 MB.
+Total: 3.042500 ms (FindLiveObjects: 0.281100 ms CreateObjectMapping: 0.222300 ms MarkObjects: 2.435500 ms  DeleteObjects: 0.102400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,25 +165,169 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 312358.572927 seconds.
-  path: Assets/02.Scripts/FireCtrl.cs
-  artifactKey: Guid(4872675d2a29d1840a5122c0d32c8a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Scripts/FireCtrl.cs using Guid(4872675d2a29d1840a5122c0d32c8a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c5edc75b546f86a6eb6965f81aa18e') in 0.020269 seconds 
+  Time since last request: 340315.251976 seconds.
+  path: Assets/03.Prefabs/Sparks_Particles/Materials/TX_Example_Grid.mat
+  artifactKey: Guid(f4cb0b62c5ac7a444ac7ca71a9f07788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Sparks_Particles/Materials/TX_Example_Grid.mat using Guid(f4cb0b62c5ac7a444ac7ca71a9f07788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b725508a55b83de4c6881bd3f1730ce') in 0.153983 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/02.Scripts/BulletCtrl.cs
-  artifactKey: Guid(d5076c59a2942834ca65460e0e33d77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Scripts/BulletCtrl.cs using Guid(d5076c59a2942834ca65460e0e33d77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5c9c468503ab47ec587637eb1cd804') in 0.003763 seconds 
+  Time since last request: 2.936447 seconds.
+  path: Assets/03.Prefabs/Sparks_Particles/Textures/TX_Capsule_01_Add.png
+  artifactKey: Guid(94ff63fbcbecbb34cb04eb4e6dce7d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Sparks_Particles/Textures/TX_Capsule_01_Add.png using Guid(94ff63fbcbecbb34cb04eb4e6dce7d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b25984abab7d3955df29193bfd395a') in 0.038760 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/02.Scripts/FollowCam.cs
-  artifactKey: Guid(f7a01af058e781142bdec971276bfd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Scripts/FollowCam.cs using Guid(f7a01af058e781142bdec971276bfd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53fa2c9b735e2ed12fa2d7c256c03d6') in 0.003603 seconds 
+  Time since last request: 4.850607 seconds.
+  path: Assets/03.Prefabs/Stylized Sparks - Maiami Studio/DemoScene/Scene Setup_Material.mat
+  artifactKey: Guid(cd07260b7c071bc43a796a716dbf6d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Stylized Sparks - Maiami Studio/DemoScene/Scene Setup_Material.mat using Guid(cd07260b7c071bc43a796a716dbf6d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b01b70d342b37a52bf6d5c49d13e37') in 0.012315 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.201828 seconds.
-  path: Assets/02.Scripts/RemoveBullet.cs
-  artifactKey: Guid(3011e86f38938a943ba844bd7efe74b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/02.Scripts/RemoveBullet.cs using Guid(3011e86f38938a943ba844bd7efe74b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63968d5045be98511d64cba43ecd6186') in 0.005286 seconds 
+  Time since last request: 1.314339 seconds.
+  path: Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Materials/msVFX_StylizedSparks_Material.mat
+  artifactKey: Guid(1c4a9c33e2747a14cbc1a996dbfe9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Materials/msVFX_StylizedSparks_Material.mat using Guid(1c4a9c33e2747a14cbc1a996dbfe9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd0f42931bd0b61aca7b9d28a929965') in 0.014604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.027940 seconds.
+  path: Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Shiners/msVFX_Shiner_1.prefab
+  artifactKey: Guid(4bb5eb633741bc04981d7e3626939a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Shiners/msVFX_Shiner_1.prefab using Guid(4bb5eb633741bc04981d7e3626939a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee3f4d2a1440b0bce8ae3bc0120184a') in 0.037488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Shiners/msVFX_Shiner_6.prefab
+  artifactKey: Guid(0d637655b4b52314fa6c939999562e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Shiners/msVFX_Shiner_6.prefab using Guid(0d637655b4b52314fa6c939999562e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a877dc729b9396cb8d1b8d8651eec7d') in 0.014639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Shiners/msVFX_Shiner_3.prefab
+  artifactKey: Guid(06a97efdcc563f147b8a5cf55c6774cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Shiners/msVFX_Shiner_3.prefab using Guid(06a97efdcc563f147b8a5cf55c6774cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e17770003d70cc3eae3827b891909d') in 0.016505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.035863 seconds.
+  path: Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Stylized Sparks/msVFX_Sparks2_1.prefab
+  artifactKey: Guid(5cb27220851385a449c4bed63a2b3fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Stylized Sparks/msVFX_Sparks2_1.prefab using Guid(5cb27220851385a449c4bed63a2b3fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a9e79a651950fd11683b49625ec8e9') in 0.012369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Stylized Sparks/msVFX_Sparks_Yellow.prefab
+  artifactKey: Guid(994fedd81cc32b940bbdbf4be04f8d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Stylized Sparks/msVFX_Sparks_Yellow.prefab using Guid(994fedd81cc32b940bbdbf4be04f8d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c88c16996e79707a5ce9f528e93e125') in 0.016049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Stylized Sparks/msVFX_Sparks2_3.prefab
+  artifactKey: Guid(f602c812ca17da2428a8c59a413ac7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Stylized Sparks/msVFX_Sparks2_3.prefab using Guid(f602c812ca17da2428a8c59a413ac7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f853720e5341ece7dd97f3181405b74') in 0.013943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Stylized Sparks/msVFX_Sparks_Blue.prefab
+  artifactKey: Guid(39cda213f856c7845a84db6dcdd246dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Stylized Sparks/msVFX_Sparks_Blue.prefab using Guid(39cda213f856c7845a84db6dcdd246dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f084b01b796dd516444d6caf3effc74') in 0.013628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Stylized Sparks/msVFX_Sparks_LightBlue.prefab
+  artifactKey: Guid(4976bd9c304f3f24d9ca05cc2bee7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Stylized Sparks/msVFX_Sparks_LightBlue.prefab using Guid(4976bd9c304f3f24d9ca05cc2bee7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fa6e58a48b12ed55555a4a0566717b') in 0.013472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Stylized Sparks/msVFX_Sparks2_5.prefab
+  artifactKey: Guid(7db8a455633c1a24ba433c81f97f4186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Stylized Sparks - Maiami Studio/Prefabs/Stylized Sparks/msVFX_Sparks2_5.prefab using Guid(7db8a455633c1a24ba433c81f97f4186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8471ae07636b885c63ad0b5be7eba0') in 0.012962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.137593 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Fire_1.prefab
+  artifactKey: Guid(032c55c3ace13b947a59b7d292e10dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Fire_1.prefab using Guid(032c55c3ace13b947a59b7d292e10dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3c06b18287c59163fbf0209d50654e') in 0.119896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_8.prefab
+  artifactKey: Guid(41b5903607626544782eb7c8d71f13d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_8.prefab using Guid(41b5903607626544782eb7c8d71f13d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2efa376cc4af821970547bc4c8c18df') in 0.015216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Fire_6.prefab
+  artifactKey: Guid(e59d4f8f1f159134387f5e7a644c0d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Fire_6.prefab using Guid(e59d4f8f1f159134387f5e7a644c0d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb706e98109793a376664ceb65ac11b') in 0.013729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_3.prefab
+  artifactKey: Guid(f53f2669c82617e42b077be6b634819e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_3.prefab using Guid(f53f2669c82617e42b077be6b634819e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcdc0c30a5175c595668c741f0aecc2') in 0.018531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_4.prefab
+  artifactKey: Guid(3cfa6ebebb7544f44b35aa4f98a72e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_4.prefab using Guid(3cfa6ebebb7544f44b35aa4f98a72e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e860cf234f6a0e9f008e42b09acad9') in 0.017278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_16.prefab
+  artifactKey: Guid(7b03f68ba461c444597ddc74cbd4c2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_16.prefab using Guid(7b03f68ba461c444597ddc74cbd4c2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb02dcc7c55f8476768ed80c2c3cc7f4') in 0.020650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_17.prefab
+  artifactKey: Guid(5842e8190ff195a48a056e08c685aeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_17.prefab using Guid(5842e8190ff195a48a056e08c685aeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d52823eb57d32f3450e273f20910cc') in 0.016760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_Circle_1.prefab
+  artifactKey: Guid(e17f9cceccbbdb3478fd579294afc2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_Circle_1.prefab using Guid(e17f9cceccbbdb3478fd579294afc2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f58975165cf74427af7378cfe45b6c') in 0.014893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_6.prefab
+  artifactKey: Guid(0aacebc1215d4394bb45ceae2eae38fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_6.prefab using Guid(0aacebc1215d4394bb45ceae2eae38fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951fb641529ef8355dd97142342d1045') in 0.021991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_Circle_6.prefab
+  artifactKey: Guid(887f74b6110ee8e4596c332e5f9fa829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_Circle_6.prefab using Guid(887f74b6110ee8e4596c332e5f9fa829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e640ca193c634eb36fe021975bb001f') in 0.018351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Fire_8.prefab
+  artifactKey: Guid(aa2941fce32a734418f07143591bd4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Fire_8.prefab using Guid(aa2941fce32a734418f07143591bd4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec4445945e4e184102e4b174f4a7e64') in 0.012879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_14.prefab
+  artifactKey: Guid(0dc9a885ef577a9498e8baacd4da413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_14.prefab using Guid(0dc9a885ef577a9498e8baacd4da413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59d9134c2cdff9c3c90148a9ecec7a4') in 0.015112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Fire_11.prefab
+  artifactKey: Guid(2507717e4fb4e634fb9dcb7d9c319fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Fire_11.prefab using Guid(2507717e4fb4e634fb9dcb7d9c319fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47fb5b8dc9fd6169732b8107a2a4bf8') in 0.016971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Fire_7.prefab
+  artifactKey: Guid(ba8f5ef7dbba22e4cbba766c9d5d0551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Fire_7.prefab using Guid(ba8f5ef7dbba22e4cbba766c9d5d0551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e30956a673de9a0bf8077ac95646a3f') in 0.016497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_15.prefab
+  artifactKey: Guid(51000434ab090284e857bd9fc62ce642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Magical FX Shape/Prefab/Magic_15.prefab using Guid(51000434ab090284e857bd9fc62ce642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0298af375da63d5966d430d46a0956') in 0.015696 seconds 
