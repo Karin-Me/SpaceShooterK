@@ -1322,6 +1322,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3136799027563293818, guid: 1409442602dd9e8408d63930728bd6d4, type: 3}
+      propertyPath: sparkEffect
+      value: 
+      objectReference: {fileID: 1880727163}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1409442602dd9e8408d63930728bd6d4, type: 3}
 --- !u!1001 &3753163632935852653
@@ -1440,6 +1444,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3136799027563293818, guid: 1409442602dd9e8408d63930728bd6d4, type: 3}
+      propertyPath: sparkEffect
+      value: 
+      objectReference: {fileID: 1880727163}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1409442602dd9e8408d63930728bd6d4, type: 3}
 --- !u!1001 &6037853777443472104
@@ -1497,5 +1505,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3136799027563293818, guid: 1409442602dd9e8408d63930728bd6d4, type: 3}
+      propertyPath: sparkEffect
+      value: 
+      objectReference: {fileID: 1880727163}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1409442602dd9e8408d63930728bd6d4, type: 3}
