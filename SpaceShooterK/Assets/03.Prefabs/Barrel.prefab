@@ -109,6 +109,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   expEffect: {fileID: 5963688839630228306, guid: 4f04a7dd5dcc00d48b4cc9b7ed4db8fd, type: 3}
+  textures:
+  - {fileID: 2800000, guid: e1f2b37b381e6d14a8a01ddd49a84a58, type: 3}
+  - {fileID: 2800000, guid: 0aa4112bfd022aa47919f151ba79ddc1, type: 3}
+  - {fileID: 2800000, guid: d38462a18d74e454aaf079b02bc753cd, type: 3}
 --- !u!114 &4612513810803347583
 MonoBehaviour:
   m_ObjectHideFlags: 0
