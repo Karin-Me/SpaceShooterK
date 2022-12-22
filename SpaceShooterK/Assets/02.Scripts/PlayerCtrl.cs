@@ -10,26 +10,41 @@ public class PlayerCtrl : MonoBehaviour
     private float rotate;       // 회전 속도 변수
 
     // public 으로 선언되어 Inspector View 에 노출됨.
-    public float moveSpeed = 10.0f;     // 이동속도 변수
-    public float turnSpeed = 80.0f;     // 회전속도 변수 
+    public float moveSpeed = 10.0f;     // 이동 속력 변수 (public으로 선언돼 인스펙터 뷰에 노출됨)
+    public float turnSpeed = 80.0f;     // 회전 속도 변수 
 
     private Vector3 moveDir;    // Vector3 를 moveDir 변수에 할당.
     private Transform tr;       // 컴포넌트를 캐시 처리할 변수. Transform 은 클래스이다.
     private Animation anim;     // Animation 컴포넌트를 저장할 변수
 
 
+    //void Start()
+    //{
+    //    // Transform 컴포넌트를 추출해 변수에 대입(this.gameObject 는 생략가능하다.)
+    //    tr = this.GetComponent<Transform>();
+    //    anim = this.GetComponent<Animation>();
 
+    //    // 애니메이션 실행
+    //    anim.Play("Idle");
+    //}
 
+    // =============================================== //
 
-    void Start()
+    IEnumerator Start()
     {
-        // Transform 컴포넌트를 추출해 변수에 대입(this.gameObject 는 생략가능하다.)
-        tr = this.GetComponent<Transform>();
-        anim = this.GetComponent<Animation>();
+        //5-16 컴포넌트를 추출해 변수에 대입
+        tr = GetComponent<Transform>();
+        anim = GetComponent<Animation>();
 
-        // 애니메이션 실행
+        //5-16 애니메이션 실행
         anim.Play("Idle");
+
+        turnSpeed = 0.0f;
+        yield return new WaitForSeconds(0.3f);
+        turnSpeed = 1000.0f;
     }
+
+    // ============================================== //
 
 
     void Update()
@@ -91,7 +106,7 @@ public class PlayerCtrl : MonoBehaviour
         {
             anim.CrossFade("Idle", 0.25f);  // 정지 시 Idle 애니메이션 실행
         }
-    }
+    }    
 }
 
 

@@ -2723,7 +2723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 6
-  turnSpeed: 1000
+  turnSpeed: 3000
 --- !u!4 &1349902168 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400046, guid: f3cd25b3bf53c4adaaf087d862e435e6, type: 3}
@@ -4029,6 +4029,10 @@ PrefabInstance:
     - target: {fileID: 792899162973847281, guid: 071ed498482305541a5f218e4a4ce497, type: 3}
       propertyPath: m_Name
       value: Bullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 792899162973847294, guid: 071ed498482305541a5f218e4a4ce497, type: 3}
+      propertyPath: force
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 792899162973847295, guid: 071ed498482305541a5f218e4a4ce497, type: 3}
       propertyPath: m_RootOrder
