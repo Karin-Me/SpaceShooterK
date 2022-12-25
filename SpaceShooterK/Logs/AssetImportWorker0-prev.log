@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 16266 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 16163 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Unity/GitHub/SpaceShooterK/SpaceShooterK
+C:/Users/USER/UnityProject/GitHub/SpaceShooterK/SpaceShooterK
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-6308
-Successfully changed project path to: D:/Unity/GitHub/SpaceShooterK/SpaceShooterK
-D:/Unity/GitHub/SpaceShooterK/SpaceShooterK
+5915
+Successfully changed project path to: C:/Users/USER/UnityProject/GitHub/SpaceShooterK/SpaceShooterK
+C:/Users/USER/UnityProject/GitHub/SpaceShooterK/SpaceShooterK
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,111 +47,111 @@ D:/Unity/GitHub/SpaceShooterK/SpaceShooterK
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 121.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity/GitHub/SpaceShooterK/SpaceShooterK/Assets
+[Subsystems] Discovering subsystems at path C:/Users/USER/UnityProject/GitHub/SpaceShooterK/SpaceShooterK/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
     Vendor:   NVIDIA
-    VRAM:     2988 MB
+    VRAM:     3990 MB
     Driver:   30.0.15.1215
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.022396 seconds.
+Registered in 0.004073 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 104.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  0.496 seconds
 Domain Reload Profiling:
-	ReloadAssembly (841ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (496ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (566ms)
-			LoadAssemblies (114ms)
+		EndReloadAssembly (364ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (129ms)
+			SetupTypeCache (80ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (338ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (221ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (72ms)
+				InitializePlatformSupportModulesInManaged (40ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
+				RefreshPlugins (74ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007251 seconds.
+Registered in 0.002828 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.567 seconds
+- Completed reload, in  0.871 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2568ms)
-		BeginReloadAssembly (1437ms)
+	ReloadAssembly (871ms)
+		BeginReloadAssembly (204ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1311ms)
-		EndReloadAssembly (982ms)
-			LoadAssemblies (130ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (584ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (311ms)
+			SetupTypeCache (195ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (462ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (267ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3852.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.3 KB). Loaded Objects now: 3853.
 Memory consumption went from 199.3 MB to 199.2 MB.
-Total: 3.059800 ms (FindLiveObjects: 0.282100 ms CreateObjectMapping: 0.218500 ms MarkObjects: 2.450000 ms  DeleteObjects: 0.108100 ms)
+Total: 2.648900 ms (FindLiveObjects: 0.226900 ms CreateObjectMapping: 0.075700 ms MarkObjects: 2.255500 ms  DeleteObjects: 0.090200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,163 +165,683 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 579871.069864 seconds.
-  path: Assets/05.Models/Monster/textures/monster.jpg
-  artifactKey: Guid(23d5aee4d3a974f49a80c83cbf28b501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Monster/textures/monster.jpg using Guid(23d5aee4d3a974f49a80c83cbf28b501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4736a53f6f7102dd8bd80cb419c5acb') in 0.101236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/05.Models/Monster/textures/monster_n.PSD
-  artifactKey: Guid(6f76b43d5771d430ea7430a477fa019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Monster/textures/monster_n.PSD using Guid(6f76b43d5771d430ea7430a477fa019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2265b20d3a80ef0fd952ffb6715045') in 0.048651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/05.Models/Monster/Materials/Monster.mat
-  artifactKey: Guid(20c755ee9276741c4a7882cc85401661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Monster/Materials/Monster.mat using Guid(20c755ee9276741c4a7882cc85401661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5010588ce513674e9594d6db5689ea1b') in 0.064475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 73.540026 seconds.
-  path: Assets/05.Models/Monster/Monster.fbx
-  artifactKey: Guid(114cb4bcf81314b65b611fcc4f346ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Monster/Monster.fbx using Guid(114cb4bcf81314b65b611fcc4f346ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1228863167351c23b36a5551ef6924') in 0.138038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 85.227620 seconds.
-  path: Assets/05.Models/Monster/Monster.fbx
-  artifactKey: Guid(114cb4bcf81314b65b611fcc4f346ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Monster/Monster.fbx using Guid(114cb4bcf81314b65b611fcc4f346ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325df0b92af9b0c3b1e92f3adba843c8') in 0.074567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.370272 seconds.
-  path: Assets/05.Models/Monster/Monster.fbx
-  artifactKey: Guid(114cb4bcf81314b65b611fcc4f346ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Monster/Monster.fbx using Guid(114cb4bcf81314b65b611fcc4f346ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be910d87ed093f61c93298b7ee993c9c') in 0.072189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.930178 seconds.
-  path: Assets/05.Models/Monster/Monster.fbx
-  artifactKey: Guid(114cb4bcf81314b65b611fcc4f346ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Monster/Monster.fbx using Guid(114cb4bcf81314b65b611fcc4f346ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ade2c1cce26418c118518ae8d8e6a3c') in 0.073957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2433.867548 seconds.
-  path: Assets/05.Models/SchoolGirls/Prefab/SK_SchoolGirl_v2 Variant.prefab
-  artifactKey: Guid(391789d9c20442a4eb8488ebb27f231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Prefab/SK_SchoolGirl_v2 Variant.prefab using Guid(391789d9c20442a4eb8488ebb27f231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161096d794571262cf8bb2131edda23a') in 4.086957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SKIRT_SHORT_v3.mat
-  artifactKey: Guid(72d895e7ee43b084089a73dc5f3dd916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Materials/MAT_JAP_SKIRT_SHORT_v3.mat using Guid(72d895e7ee43b084089a73dc5f3dd916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc73b7400c548ac27e20c46e1ac3468') in 0.076441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.319992 seconds.
-  path: Assets/05.Models/SchoolGirls/Base_Player/Co_09 SchoolGirl Monster.fbx
+  Time since last request: 60481.785146 seconds.
+  path: Assets/05.Models/Monster/Co_09 SchoolGirl Monster.fbx
   artifactKey: Guid(e813ee15732815e41b260077f3dc26ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Base_Player/Co_09 SchoolGirl Monster.fbx using Guid(e813ee15732815e41b260077f3dc26ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447da251bb23ce285d41f0772674c52b') in 0.389351 seconds 
+Start importing Assets/05.Models/Monster/Co_09 SchoolGirl Monster.fbx using Guid(e813ee15732815e41b260077f3dc26ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef6e4fa1c068415800a88c1c0cbfea2') in 0.467561 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002561 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Domain Reload Profiling:
+	ReloadAssembly (699ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (531ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.5 KB). Loaded Objects now: 3866.
+Memory consumption went from 216.4 MB to 216.3 MB.
+Total: 2.467700 ms (FindLiveObjects: 0.213100 ms CreateObjectMapping: 0.078400 ms MarkObjects: 2.092200 ms  DeleteObjects: 0.083000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002815 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.738 seconds
+Domain Reload Profiling:
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (561ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (246ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.5 KB). Loaded Objects now: 3869.
+Memory consumption went from 216.4 MB to 216.3 MB.
+Total: 2.500500 ms (FindLiveObjects: 0.229600 ms CreateObjectMapping: 0.074800 ms MarkObjects: 2.111800 ms  DeleteObjects: 0.083500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003072 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.739 seconds
+Domain Reload Profiling:
+	ReloadAssembly (739ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (562ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (236ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3872.
+Memory consumption went from 216.4 MB to 216.3 MB.
+Total: 2.336500 ms (FindLiveObjects: 0.206200 ms CreateObjectMapping: 0.077200 ms MarkObjects: 1.978200 ms  DeleteObjects: 0.074300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003077 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (782ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (608ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3875.
+Memory consumption went from 216.4 MB to 216.3 MB.
+Total: 2.312600 ms (FindLiveObjects: 0.194700 ms CreateObjectMapping: 0.072600 ms MarkObjects: 1.977800 ms  DeleteObjects: 0.066800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003016 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Domain Reload Profiling:
+	ReloadAssembly (733ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (560ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.5 KB). Loaded Objects now: 3878.
+Memory consumption went from 216.4 MB to 216.3 MB.
+Total: 2.239600 ms (FindLiveObjects: 0.208400 ms CreateObjectMapping: 0.075100 ms MarkObjects: 1.881700 ms  DeleteObjects: 0.073700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003425 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.812 seconds
+Domain Reload Profiling:
+	ReloadAssembly (813ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.4 KB). Loaded Objects now: 3881.
+Memory consumption went from 216.4 MB to 216.3 MB.
+Total: 2.854700 ms (FindLiveObjects: 0.320100 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.322700 ms  DeleteObjects: 0.125400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003164 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.729 seconds
+Domain Reload Profiling:
+	ReloadAssembly (730ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (548ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3884.
+Memory consumption went from 216.4 MB to 216.3 MB.
+Total: 2.358300 ms (FindLiveObjects: 0.199300 ms CreateObjectMapping: 0.066400 ms MarkObjects: 2.015700 ms  DeleteObjects: 0.076100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002569 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.734 seconds
+Domain Reload Profiling:
+	ReloadAssembly (735ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (551ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3887.
+Memory consumption went from 216.4 MB to 216.4 MB.
+Total: 4.149200 ms (FindLiveObjects: 0.342500 ms CreateObjectMapping: 0.150900 ms MarkObjects: 3.544600 ms  DeleteObjects: 0.108900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003131 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.5 KB). Loaded Objects now: 3890.
+Memory consumption went from 216.4 MB to 216.4 MB.
+Total: 2.481200 ms (FindLiveObjects: 0.229500 ms CreateObjectMapping: 0.081000 ms MarkObjects: 2.092900 ms  DeleteObjects: 0.077100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/05.Models/SchoolGirls/Base_Player/SK_SchoolGirl_v8.fbx
-  artifactKey: Guid(a916f0a030766cd47b4302a48a55bf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Base_Player/SK_SchoolGirl_v8.fbx using Guid(a916f0a030766cd47b4302a48a55bf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6480a789373ffc5bac1c8a14ecdbf307') in 0.312573 seconds 
+  Time since last request: 29442.659386 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/walk.fbx
+  artifactKey: Guid(9079b39055c2015478f2dc53f394470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/walk.fbx using Guid(9079b39055c2015478f2dc53f394470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d34da19d6ad61d0ea0a2415e9bf0a04') in 0.253453 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.825386 seconds.
-  path: Assets/05.Models/Monster/Monster.fbx
-  artifactKey: Guid(114cb4bcf81314b65b611fcc4f346ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/Monster/Monster.fbx using Guid(114cb4bcf81314b65b611fcc4f346ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b31fba76f3af78037faa95b7900e63d') in 0.068051 seconds 
+  Time since last request: 96.244385 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/idle.fbx
+  artifactKey: Guid(434d77ca2c5b9d54f862568ff27976a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/idle.fbx using Guid(434d77ca2c5b9d54f862568ff27976a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea351d14ab372488f75fafa6e946129') in 0.613341 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.330655 seconds.
-  path: Assets/05.Models/SchoolGirls/Base_Player/Co_09 SchoolGirl Monster.fbx
-  artifactKey: Guid(e813ee15732815e41b260077f3dc26ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Base_Player/Co_09 SchoolGirl Monster.fbx using Guid(e813ee15732815e41b260077f3dc26ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123d3983f310b82cc47a61a33207e10c') in 0.304873 seconds 
+  Time since last request: 27.248595 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/idle.fbx
+  artifactKey: Guid(434d77ca2c5b9d54f862568ff27976a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/idle.fbx using Guid(434d77ca2c5b9d54f862568ff27976a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb326134a8221784edb048a2b4882ab') in 0.318574 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.678811 seconds.
-  path: Assets/05.Models/SchoolGirls/Base_Player/Co_09 SchoolGirl Monster.fbx
-  artifactKey: Guid(e813ee15732815e41b260077f3dc26ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Base_Player/Co_09 SchoolGirl Monster.fbx using Guid(e813ee15732815e41b260077f3dc26ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1791be84be8b4e738987820b90dbe640') in 0.298384 seconds 
+  Time since last request: 79.046486 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/S - Orc Walk.fbx
+  artifactKey: Guid(049c54d41efd6dc4480b89146aae80a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/S - Orc Walk.fbx using Guid(049c54d41efd6dc4480b89146aae80a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9badf91522592fefa3cd1dc53572fc9') in 0.150054 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.864355 seconds.
-  path: Assets/05.Models/SchoolGirls/Base_Player/Co_09 SchoolGirl Monster.fbx
-  artifactKey: Guid(e813ee15732815e41b260077f3dc26ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Base_Player/Co_09 SchoolGirl Monster.fbx using Guid(e813ee15732815e41b260077f3dc26ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba47ac024c06171491c4ef74518ece9') in 0.299463 seconds 
+  Time since last request: 14.396035 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/Idle.fbx
+  artifactKey: Guid(434d77ca2c5b9d54f862568ff27976a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/Idle.fbx using Guid(434d77ca2c5b9d54f862568ff27976a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494fe3a33513c8d6bc851bb88139109b') in 0.339690 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.786851 seconds.
-  path: Assets/05.Models/SchoolGirls/Base_Player/Co_09 SchoolGirl Monster.fbx
-  artifactKey: Guid(e813ee15732815e41b260077f3dc26ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/05.Models/SchoolGirls/Base_Player/Co_09 SchoolGirl Monster.fbx using Guid(e813ee15732815e41b260077f3dc26ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ed5dc8b3f5585a4248ab57dae5db0c') in 0.301841 seconds 
+  Time since last request: 40.635017 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/walk.fbx
+  artifactKey: Guid(9079b39055c2015478f2dc53f394470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/walk.fbx using Guid(9079b39055c2015478f2dc53f394470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec630d894ac8c7ba204cac227b40d805') in 0.163532 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 114.234680 seconds.
-  path: Assets/07.Animations
-  artifactKey: Guid(d57ca792a6a750d48bd2bb79e69d1848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/07.Animations using Guid(d57ca792a6a750d48bd2bb79e69d1848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648b21cd164f76693939ffb6efb72dc0') in 0.003203 seconds 
+  Time since last request: 3.324599 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/S - Injured Walk.fbx
+  artifactKey: Guid(9079b39055c2015478f2dc53f394470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/S - Injured Walk.fbx using Guid(9079b39055c2015478f2dc53f394470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22720566e9ec76b6a3a9bdbe25dfcab') in 0.143058 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.309870 seconds.
-  path: Assets/07.Animations/Player Animation Clip
-  artifactKey: Guid(c404b61454ab141ad9ba885dfe074737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/07.Animations/Player Animation Clip using Guid(c404b61454ab141ad9ba885dfe074737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d56e7238413da87e9a4ff1be80249c') in 0.002955 seconds 
+  Time since last request: 38.918637 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/Walking.fbx
+  artifactKey: Guid(a1864629d53e3024c969c4a117ba0b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/Walking.fbx using Guid(a1864629d53e3024c969c4a117ba0b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30266f4c1c1d491dd915d1a09d5d2086') in 0.150618 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 57.262911 seconds.
-  path: Assets/Animations
-  artifactKey: Guid(2da27835e9375754586bd5d395f68145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations using Guid(2da27835e9375754586bd5d395f68145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27a21c7495d0dbc9c6921ea4f54bfed') in 0.002854 seconds 
+  Time since last request: 92.922516 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/Walking.fbx
+  artifactKey: Guid(a1864629d53e3024c969c4a117ba0b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/Walking.fbx using Guid(a1864629d53e3024c969c4a117ba0b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274e723479d073e7a1380f47d0db27ec') in 0.201432 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002684 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\UnityProject\GitHub\SpaceShooterK\SpaceShooterK\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.738 seconds
+Domain Reload Profiling:
+	ReloadAssembly (739ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (568ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.5 KB). Loaded Objects now: 3926.
+Memory consumption went from 216.9 MB to 216.8 MB.
+Total: 2.443100 ms (FindLiveObjects: 0.220600 ms CreateObjectMapping: 0.088600 ms MarkObjects: 2.048400 ms  DeleteObjects: 0.084400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.341563 seconds.
-  path: Assets/Monster@Gangnam Style.fbx
-  artifactKey: Guid(0e57b0734b5774949bc7dc3a4bdd760c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monster@Gangnam Style.fbx using Guid(0e57b0734b5774949bc7dc3a4bdd760c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195b7882573b9de289cacc594cd77201') in 0.013171 seconds 
+  Time since last request: 803.436816 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/Standing Attack.fbx
+  artifactKey: Guid(abb7457d26d0a954a84e107b9d00eea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/Standing Attack.fbx using Guid(abb7457d26d0a954a84e107b9d00eea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a2fd96e07d37be4ac0c0e3d6cbb1fd') in 0.215029 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.137499 seconds.
-  path: Assets/Monster@Gangnam Style.fbx
-  artifactKey: Guid(0e57b0734b5774949bc7dc3a4bdd760c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monster@Gangnam Style.fbx using Guid(0e57b0734b5774949bc7dc3a4bdd760c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa13d584660a690aaa75e040db7e2979') in 0.011084 seconds 
+  Time since last request: 38.596804 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/Falling Back Death.fbx
+  artifactKey: Guid(93c44538d66df284081e66905978ebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/Falling Back Death.fbx using Guid(93c44538d66df284081e66905978ebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa59e46376b7e31c03b30b9fed6ae537') in 0.143527 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 416.350260 seconds.
-  path: Assets/Gangnam Style.fbx
-  artifactKey: Guid(04deca1a10ed7904faf906a56f039d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gangnam Style.fbx using Guid(04deca1a10ed7904faf906a56f039d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cef2b72f353c508b62209872a8019ab') in 0.062543 seconds 
+  Time since last request: 39.383763 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/Standing Damage.fbx
+  artifactKey: Guid(abb7457d26d0a954a84e107b9d00eea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/Standing Damage.fbx using Guid(abb7457d26d0a954a84e107b9d00eea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9844e588abfc1ac32c41ed14e4b1a528') in 0.148200 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.679563 seconds.
-  path: Assets/Gangnam Style.fbx
-  artifactKey: Guid(04deca1a10ed7904faf906a56f039d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gangnam Style.fbx using Guid(04deca1a10ed7904faf906a56f039d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeba8a5c589aaf26a734fca5a3100ef0') in 0.060612 seconds 
+  Time since last request: 10.205239 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/Standing Damage.fbx
+  artifactKey: Guid(abb7457d26d0a954a84e107b9d00eea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/Standing Damage.fbx using Guid(abb7457d26d0a954a84e107b9d00eea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248722b3a3d0f5f054b5806091b2b586') in 0.144917 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 104.948033 seconds.
-  path: Assets/Monster@Gangnam Style.fbx
-  artifactKey: Guid(0e57b0734b5774949bc7dc3a4bdd760c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monster@Gangnam Style.fbx using Guid(0e57b0734b5774949bc7dc3a4bdd760c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fac5f97c325c3be2d21f12e3f92a9d') in 0.011506 seconds 
+  Time since last request: 15.475411 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/Zombie Attack.fbx
+  artifactKey: Guid(2dffc81e746b0df41870457dd048ddc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/Zombie Attack.fbx using Guid(2dffc81e746b0df41870457dd048ddc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da05bea195e137e0442809f413a4a6d') in 0.174887 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.851912 seconds.
-  path: Assets/Gangnam Style.fbx
-  artifactKey: Guid(04deca1a10ed7904faf906a56f039d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Gangnam Style.fbx using Guid(04deca1a10ed7904faf906a56f039d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a037d946607d23a8d560af3eb80ecf7') in 0.052897 seconds 
+  Time since last request: 22.760668 seconds.
+  path: Assets/07.Animations/SH Girl Monster Animation/Walking.fbx
+  artifactKey: Guid(a1864629d53e3024c969c4a117ba0b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/SH Girl Monster Animation/Walking.fbx using Guid(a1864629d53e3024c969c4a117ba0b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73601e9046794ddfaef8a5c3188e1df3') in 0.141646 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 431.106385 seconds.
-  path: Assets/Standing Idle.fbx
-  artifactKey: Guid(be77c06380dca8b4cb263f783b23400f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standing Idle.fbx using Guid(be77c06380dca8b4cb263f783b23400f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39240433949e07c83afaae34694db5b8') in 0.169733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.401442 seconds.
-  path: Assets/Standing Idle.fbx
-  artifactKey: Guid(be77c06380dca8b4cb263f783b23400f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standing Idle.fbx using Guid(be77c06380dca8b4cb263f783b23400f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9aab5051be0ffddcb63d5a29c818c5') in 0.184200 seconds 
+  Time since last request: 93.230290 seconds.
+  path: Assets/07.Animations/Controller/SH Girl_MonsterAnim.controller
+  artifactKey: Guid(fc989057a6787f648a289696ef902ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07.Animations/Controller/SH Girl_MonsterAnim.controller using Guid(fc989057a6787f648a289696ef902ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd804cd6e4c4246588a387743bb7e18') in 0.010820 seconds 
