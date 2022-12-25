@@ -33,6 +33,10 @@ public class MonsterCtrl : MonoBehaviour
     //6-4 Animator 변수 +=--
     private Animator anim;
 
+    //6-5 Animator 파라미터의 해시값 추출 +==--
+    private readonly int hashTrace = Animator.StringToHash("IsTrace");
+    private readonly int hashAttack = Animator.StringToHash("IsAttack");
+
     void Start()
     {
         //6-1 몬스터의 Transform 할당
@@ -98,21 +102,37 @@ public class MonsterCtrl : MonoBehaviour
                 case State.IDLE:
                     //6-3 추적 중지 =--
                     agent.isStopped = true;
-                    // 6-4 Animator의 IsTrace 변수를 false로 설정 +=--
-                    anim.SetBool("IsTrace", false);
+
+                    // 6-5 Animator의 IsTrace 변수를 해시테이블로 변경 +==--
+                    anim.SetBool(hashTrace, false);
                     break;
+
+                //// 6-4 Animator의 IsTrace 변수를 false로 설정 +=--
+                //anim.SetBool("IsTrace", false);
+                //break;
 
                 //6-3 추적 상태 =--
                 case State.TRACE:
                     //6-3 추적 대상의 좌표로 이동 시작 =--
                     agent.SetDestination(playerTr.position);
                     agent.isStopped = false;
-                    // 6-4 Animator의 IsTrace 변수를 true로 설정 +=--
-                    anim.SetBool("IsTrace", true);
+
+                    // 6-5 Animator의 IsTrace 변수를 해시테이블 true로 설정 +==--
+                    anim.SetBool(hashTrace, true);
+
+
+                    // 6-5 Animator의 IsAttack 변수를 해시테이블 false로 설정 +==--
+                    anim.SetBool(hashAttack, false);
                     break;
+
+                //// 6-4 Animator의 IsTrace 변수를 true로 설정 +=--
+                //anim.SetBool("IsTrace", true);
+                //break;
 
                 //6-3 공격 상태 =--
                 case State.ATTACK:
+                    //6-5 Animator의 IsAttack 변수를 true로 설정 +==--
+                    anim.SetBool(hashAttack, true);
                     break;
 
                 //6-3 사망 =--
