@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: {r: 1, g: 0.9696486, b: 0, a: 0.85882354}
-  radius: 1.15
+  radius: 0.85
 --- !u!1 &9194247151463716208
 GameObject:
   m_ObjectHideFlags: 0
