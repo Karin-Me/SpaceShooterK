@@ -38,6 +38,9 @@ public class MonsterCtrl : MonoBehaviour
     private readonly int hashAttack = Animator.StringToHash("IsAttack");
     // 6-6 몬스터 피격 해시테이블 !==--
     private readonly int hashHit = Animator.StringToHash("Hit");    // !==--
+    //6-10 PlayerDie 애니메이터 해시값 추가 %==--
+    private readonly int hashPlayerDie = Animator.StringToHash("PlayerDie");
+
     //6-7 혈흔 효과 프리팹 @==--
     private GameObject bloodEffect;
 
@@ -176,11 +179,6 @@ public class MonsterCtrl : MonoBehaviour
         GameObject blood = Instantiate<GameObject>(bloodEffect, pos, rot, monsterTr);
         Destroy(blood, 1.0f);
     }
-    // 몬스터의 콜라이더 함수 충돌 테스트
-    private void OnTriggerEnter(Collider coll)
-    {
-        Debug.Log(coll.gameObject.name);
-    }
 
 
     void OnDrawGizmos()
@@ -197,5 +195,21 @@ public class MonsterCtrl : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, attackDist);
         }
+    }
+
+    //6-8 몬스터의 콜라이더 함수 충돌 테스트
+    private void OnTriggerEnter(Collider coll)
+    {
+        Debug.Log(coll.gameObject.name);
+    }
+
+    void OnPlayerDie()
+    {
+        //6-10 몬스터의 상태를 체크하는 코루틴 함수를 모두 정지시킴 %==--
+        StopAllCoroutines();
+
+        //6-10 추적을 정지하고 애니메이션을 수행 %==--
+        agent.isStopped = true;
+        anim.SetTrigger(hashPlayerDie);
     }
 }
