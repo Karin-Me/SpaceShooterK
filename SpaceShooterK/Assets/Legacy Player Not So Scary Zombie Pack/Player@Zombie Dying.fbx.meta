@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: 1e2a0a7eec865db4883966da5748bd05
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Dying
+  - first:
+      74: -203655887218126122
+    second: Zombie Dying
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Dying
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 540
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Zombie Dying
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Player@Zombie Dying(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: slade_mesh
+      parentName: Player@Zombie Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: slade_meshLod1
+      parentName: Player@Zombie Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: slade_meshLod2
+      parentName: Player@Zombie Dying(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis
+      parentName: Player@Zombie Dying(Clone)
+      position: {x: -0.008402196, y: 0.9853622, z: -0.044648085}
+      rotation: {x: -0.49654287, y: 0.5034336, z: -0.49654272, w: 0.5034334}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000006}
+    - name: stomach
+      parentName: pelvis
+      position: {x: -0.20285247, y: -0.00000004887581, z: 1.7763568e-17}
+      rotation: {x: 0.00000007450581, y: -0.00000017881395, z: 0.016058045, w: -0.9998711}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: Ribs
+      parentName: stomach
+      position: {x: -0.15207206, y: 0.00020905255, z: 0}
+      rotation: {x: 0.00000014901161, y: -0.000000029802322, z: -0.013232082, w: -0.9999125}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000005}
+    - name: chest
+      parentName: Ribs
+      position: {x: -0.16872406, y: -0.0022858, z: 3.6379787e-14}
+      rotation: {x: -0.000000044703484, y: -0, z: 0.06253512, w: -0.9980428}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999998}
+    - name: Rshoulder
+      parentName: chest
+      position: {x: -0.18714492, y: -0.008507958, z: -3.6379787e-14}
+      rotation: {x: 0.3653021, y: 0.53174907, z: -0.57538253, w: 0.5027249}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000002}
+    - name: Rarm
+      parentName: Rshoulder
+      position: {x: -0.2428812, y: 0.00074935914, z: -0.001896249}
+      rotation: {x: 0.09848841, y: 0.095691, z: 0.096808515, w: 0.98578465}
+      scale: {x: 1.000001, y: 1.0000002, z: 1}
+    - name: Rforearm
+      parentName: Rarm
+      position: {x: -0.33385673, y: 0.0000016021728, z: 0.000000019073486}
+      rotation: {x: -0.115426116, y: 0.04039539, z: 0.002962343, w: 0.99248993}
+      scale: {x: 1.0000013, y: 1.0000015, z: 1}
+    - name: Rwrist
+      parentName: Rforearm
+      position: {x: -0.33543375, y: -0.0037568663, z: -0.006091232}
+      rotation: {x: 0.7271985, y: 0.032193314, z: 0.0044945194, w: 0.6856573}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: Rweaponholder
+      parentName: Rwrist
+      position: {x: -0.000000114440915, y: 0.000000038146972, z: -0.00000015258789}
+      rotation: {x: 0.0000003687849, y: -0.7071068, z: 0.0000003687849, w: 0.7071068}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Rthumb
+      parentName: Rwrist
+      position: {x: 0.031436346, y: 0.034166526, z: -0.0279142}
+      rotation: {x: -0.73314834, y: -0.023891447, z: -0.3564015, w: 0.5787061}
+      scale: {x: 1.0000001, y: 1.0000007, z: 0.9999998}
+    - name: Rfingers
+      parentName: Rwrist
+      position: {x: -0.114370115, y: -0.0015478897, z: -0.0020076751}
+      rotation: {x: -0.060864, y: -0.50659996, z: 0.077043556, w: 0.8565724}
+      scale: {x: 0.9999991, y: 1, z: 1.0000007}
+    - name: neck
+      parentName: chest
+      position: {x: -0.19376907, y: -0.008859825, z: -7.2759575e-14}
+      rotation: {x: 0.0000009726822, y: 0.00000026632634, z: -0.20400332, w: -0.97897017}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: head
+      parentName: neck
+      position: {x: -0.10258896, y: -0.000000038146972, z: 0}
+      rotation: {x: -0.0000009983777, y: 0.00000017881392, z: -0.13938233, w: 0.9902386}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000006}
+    - name: Hat_Target
+      parentName: head
+      position: {x: -0.10643005, y: 0.0015116882, z: 0.00000015258789}
+      rotation: {x: 0.4983985, y: -0.5015964, z: 0.4983985, w: 0.5015964}
+      scale: {x: 0.9999998, y: 1.0000002, z: 0.9999996}
+    - name: Lshoulder
+      parentName: chest
+      position: {x: -0.18714492, y: -0.008507958, z: -3.6379787e-14}
+      rotation: {x: -0.5027252, y: 0.575383, z: -0.5317487, w: -0.36530155}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Larm
+      parentName: Lshoulder
+      position: {x: -0.24288118, y: -0.00074966426, z: -0.0018962066}
+      rotation: {x: -0.09848819, y: 0.0956915, z: -0.09680792, w: 0.98578465}
+      scale: {x: 1.0000005, y: 1, z: 1.0000002}
+    - name: Lforearm
+      parentName: Larm
+      position: {x: -0.33385673, y: -0.000001373291, z: -0.0000001335144}
+      rotation: {x: 0.1154266, y: 0.040394716, z: -0.0029626733, w: 0.9924899}
+      scale: {x: 1.0000001, y: 1.0000007, z: 0.9999998}
+    - name: Lwrist
+      parentName: Lforearm
+      position: {x: -0.33543348, y: 0.0037568663, z: -0.0060910797}
+      rotation: {x: 0.72719884, y: -0.03219328, z: 0.0044947383, w: -0.68565685}
+      scale: {x: 1.0000005, y: 1.0000013, z: 1.0000006}
+    - name: Lthumb
+      parentName: Lwrist
+      position: {x: 0.031436272, y: -0.03416649, z: -0.027913895}
+      rotation: {x: -0.7331483, y: 0.023891967, z: -0.35640195, w: -0.5787059}
+      scale: {x: 1.0000006, y: 1.0000001, z: 0.99999946}
+    - name: Lfingers
+      parentName: Lwrist
+      position: {x: -0.11437, y: 0.0015478897, z: -0.0020076751}
+      rotation: {x: -0.06086398, y: 0.50659996, z: 0.07704373, w: -0.8565724}
+      scale: {x: 0.9999996, y: 1, z: 1.0000002}
+    - name: Rthigh
+      parentName: pelvis
+      position: {x: -0.0652111, y: -0.001877141, z: 0.11102256}
+      rotation: {x: -0.02098128, y: -0.00071045756, z: 0.9983038, w: 0.05430305}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: Rcalf
+      parentName: Rthigh
+      position: {x: -0.4492408, y: -0.000000047683713, z: 0.000000019073486}
+      rotation: {x: -0.0011041543, y: -0.009197514, z: 0.13555354, w: 0.99072677}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1.0000004}
+    - name: Rfoot
+      parentName: Rcalf
+      position: {x: -0.4905869, y: -0.000000042915342, z: -0.000000057220458}
+      rotation: {x: 0.00038606836, y: 0.00035722693, z: -0.6796021, w: 0.7335808}
+      scale: {x: 0.99999994, y: 0.9999997, z: 1.0000002}
+    - name: Lthigh
+      parentName: pelvis
+      position: {x: -0.06653595, y: -0.0018588698, z: -0.11}
+      rotation: {x: 0.054360673, y: 0.99828994, z: -0.0007189363, w: -0.021488145}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.0000004}
+    - name: Lcalf
+      parentName: Lthigh
+      position: {x: -0.45058784, y: 0.00000016212464, z: 0.000000114440915}
+      rotation: {x: -0.0011624031, y: 0.009706126, z: 0.13578685, w: -0.9906899}
+      scale: {x: 1.0000008, y: 1.0000014, z: 1.0000007}
+    - name: Lfoot
+      parentName: Lcalf
+      position: {x: -0.49062783, y: 0.000000019073486, z: 0.000000009536743}
+      rotation: {x: 0.00040337036, y: -0.00037414435, z: -0.6797332, w: -0.7334593}
+      scale: {x: 1.000001, y: 1.0000017, z: 1.0000008}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

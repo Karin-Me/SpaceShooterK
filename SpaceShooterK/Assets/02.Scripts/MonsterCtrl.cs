@@ -176,6 +176,11 @@ public class MonsterCtrl : MonoBehaviour
         GameObject blood = Instantiate<GameObject>(bloodEffect, pos, rot, monsterTr);
         Destroy(blood, 1.0f);
     }
+    // 몬스터의 콜라이더 함수 충돌 테스트
+    private void OnTriggerEnter(Collider coll)
+    {
+        Debug.Log(coll.gameObject.name);
+    }
 
 
     void OnDrawGizmos()
@@ -194,6 +199,3 @@ public class MonsterCtrl : MonoBehaviour
         }
     }
 }
-
-
-

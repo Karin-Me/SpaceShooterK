@@ -17,6 +17,11 @@ public class PlayerCtrl : MonoBehaviour
     private Transform tr;       // 컴포넌트를 캐시 처리할 변수. Transform 은 클래스이다.
     private Animation anim;     // Animation 컴포넌트를 저장할 변수
 
+    //6-8 초기 생명 값 #==--
+    private readonly float initHp = 100.0f;
+    //6-8 현재 생명 값 #==--
+    public float currHp;
+
 
     //void Start()
     //{
@@ -32,6 +37,9 @@ public class PlayerCtrl : MonoBehaviour
 
     IEnumerator Start()
     {
+        //6-8 HP 초기화 #==--
+        currHp = initHp;
+
         //5-16 컴포넌트를 추출해 변수에 대입
         tr = GetComponent<Transform>();
         anim = GetComponent<Animation>();
@@ -51,7 +59,7 @@ public class PlayerCtrl : MonoBehaviour
     {
         // float horizontal = 과정을 위에 변수명으로 할당하여 그 과정을 간략화.
         // float vertical = 과정을 위에 변수명으로 할당하여 그 과정을 간략화.
-        // float rotate = 과정을 위에 
+        // float rotate = 과정을 위에 변수명으로 할당하여 그 과정을 간략화.
         horizontal = Input.GetAxis("Horizontal");   // -1.0f ~ 0.0f ~ +1.0f
         vertical = Input.GetAxis("Vertical");       // -1.0f ~ 0.0f ~ +1.0f
         rotate = Input.GetAxis("Mouse X");          // 마우스의 이동값을 받아와 구현한다.
@@ -74,15 +82,14 @@ public class PlayerCtrl : MonoBehaviour
 
         // 주인공 캐릭터의 애니메이션 설정
 
-        // 키보드 입력값을 기준으로 동작할 애니메이션 수행
-
-        // >= 왼쪽 vertical 가(이) 오른쪽 피연산자보다 크거나 같으면
-        PlayerAnim();
+        // 키보드 입력값을 기준으로 동작할 애니메이션 수행        
+        PlayerAnim(horizontal, vertical);
     }
 
 
-    private void PlayerAnim()
+    private void PlayerAnim(float horizontal, float vertical)
     {
+        // >= 왼쪽 vertical 가(이) 오른쪽 피연산자보다 크거나 같으면
         if (vertical >= 0.1f)
         {
             anim.CrossFade("RunF", 0.25f);  // 전진 애니메이션 실행
@@ -106,7 +113,30 @@ public class PlayerCtrl : MonoBehaviour
         {
             anim.CrossFade("Idle", 0.25f);  // 정지 시 Idle 애니메이션 실행
         }
-    }    
+    }
+
+    //6-8 충돌한 Collider의 IsTrigger 옵션이 체크됐을 때 발생 #==--
+    private void OnTriggerEnter(Collider coll)
+    {
+        //6-8 충돌한 Collider가 몬스터의 PUNCH이면 Player의 HP 차감 #==--
+        if (currHp >= 0.0f && coll.CompareTag("PUNCH"))
+        {
+            currHp -= 20.0f;
+            Debug.Log($"Player hp = {currHp / initHp}");
+
+            //6-8 Player의 생명이 0 이하이면 사망 처리 #==--
+            if (currHp <= 0.0f)
+            {               
+                PlayerDie();
+            }
+        }
+    }
+
+    //6-8 Player의 사망 처리 #==--
+    void PlayerDie()
+    {        
+        Debug.Log("Player Die !");
+    }
 }
 
 
